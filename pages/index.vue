@@ -2,11 +2,11 @@
 </script>
 
 <template>
-    <NuxtLayout>
-        <div>
-        <h1 class="text-2xl">
-            Attestation
-        </h1>
+  <NuxtLayout>
+    <div>
+      <h1 class="text-2xl">
+        Attestation
+      </h1>
     </div>
-    </NuxtLayout>
+  </NuxtLayout>
 </template>

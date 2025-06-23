@@ -1,5 +1,7 @@
 <template>
-  <div class="container mx-auto size-full">
-    <NuxtPage />
-  </div>
+  <UApp>
+    <div class="container mx-auto">
+      <NuxtPage />
+    </div>
+  </UApp>
 </template>
