@@ -1,7 +1,7 @@
 <template>
-  <UApp>
-    <div class="container mx-auto">
-      <NuxtPage />
-    </div>
-  </UApp>
+	<UApp>
+		<div>
+			<NuxtPage />
+		</div>
+	</UApp>
 </template>
