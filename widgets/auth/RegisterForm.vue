@@ -38,7 +38,7 @@ const state = reactive({
 	<FormTemplate :schema="schema" :state="state" class="flex flex-col gap-8">
 		<UFormField name="login">
 			<CustomInput
-				inputContainerStyle="transition duration-300 focus-within:shadow-md-purple"
+				containerStyle="transition duration-300 focus-within:shadow-md-purple"
 				icon="lucide:circle-user-round"
 				placeholder="Логин"
 				v-model="state.login"
@@ -46,7 +46,7 @@ const state = reactive({
 		</UFormField>
 		<UFormField name="fullName">
 			<CustomInput
-				inputContainerStyle="transition duration-300 focus-within:shadow-md-green"
+				containerStyle="transition duration-300 focus-within:shadow-md-green"
 				icon="lucide:user-pen"
 				placeholder="ФИО"
 				v-model="state.fullName"
@@ -54,7 +54,7 @@ const state = reactive({
 		</UFormField>
 		<UFormField name="email">
 			<CustomInput
-				inputContainerStyle="transition duration-300 focus-within:shadow-md-purple"
+				containerStyle="transition duration-300 focus-within:shadow-md-purple"
 				icon="lucide:mail"
 				placeholder="Email"
 				v-model="state.email"
@@ -63,7 +63,7 @@ const state = reactive({
 		<UFormField name="password">
 			<CustomInput
 				type="password"
-				inputContainerStyle="transition duration-300 focus-within:shadow-md-green"
+				containerStyle="transition duration-300 focus-within:shadow-md-green"
 				icon="lucide:key-round"
 				placeholder="Пароль"
 				v-model="state.password"
@@ -72,7 +72,7 @@ const state = reactive({
 		<UFormField name="confirmedPassword">
 			<CustomInput
 				type="password"
-				inputContainerStyle="transition duration-300 focus-within:shadow-md-purple"
+				containerStyle="transition duration-300 focus-within:shadow-md-purple"
 				icon="lucide:key-round"
 				placeholder="Повторите пароль"
 				v-model="state.confirmedPassword"

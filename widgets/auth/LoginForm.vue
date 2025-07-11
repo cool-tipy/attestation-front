@@ -18,7 +18,7 @@ const state = reactive({
 	<FormTemplate :schema="schema" :state="state" class="flex flex-col gap-10">
 		<UFormField name="email">
 			<CustomInput
-				inputContainerStyle="transition duration-300 focus-within:shadow-md-purple"
+				containerStyle="transition duration-300 focus-within:shadow-md-purple"
 				icon="lucide:circle-user-round"
 				placeholder="Email или Логин"
 				v-model="state.email"
@@ -27,7 +27,7 @@ const state = reactive({
 
 		<UFormField name="password">
 			<CustomInput
-				inputContainerStyle="transition duration-300 focus-within:shadow-md-green"
+				containerStyle="transition duration-300 focus-within:shadow-md-green"
 				icon="lucide:key-round"
 				placeholder="Пароль"
 				type="password"
