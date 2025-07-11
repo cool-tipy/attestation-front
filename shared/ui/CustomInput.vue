@@ -16,15 +16,15 @@ const props = defineProps({
 		type: String,
 		default: '',
 	},
-	clearable: {
+	isClearable: {
 		type: Boolean,
 		default: false,
 	},
-	inputContainerStyle: {
+	containerStyle: {
 		type: String,
 		default: '',
 	},
-	inputComponentStyle: {
+	componentStyle: {
 		type: String,
 		default: '',
 	},
@@ -47,7 +47,7 @@ const clearInput = () => {
 <template>
 	<div
 		:style="{ width: `${props.width}px`, height: `${props.height}px` }"
-		:class="inputContainerStyle"
+		:class="containerStyle"
 		class="flex p-4 items-center bg-primary-gray-350 rounded-4xl"
 	>
 		<div class="flex flex-1/2 items-center gap-3">
@@ -67,7 +67,7 @@ const clearInput = () => {
 			/>
 		</div>
 		<Icon
-			v-show="clearable"
+			v-show="isClearable"
 			:size="props.height / 3"
 			class="cursor-pointer text-primary-gray-200 transition-colors duration-150 hover:text-primary-white-150"
 			name="lucide:circle-x"

@@ -3,7 +3,7 @@ import LoginForm from '~/widgets/auth/LoginForm.vue'
 </script>
 
 <template>
-	<div class="h-screen flex items-center justify-center">
+	<div class="h-dvh flex items-center justify-center">
 		<LoginForm />
 	</div>
 </template>

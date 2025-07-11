@@ -3,7 +3,7 @@ import RegisterForm from '~/widgets/auth/RegisterForm.vue'
 </script>
 
 <template>
-	<div class="h-screen flex items-center justify-center">
+	<div class="h-dvh flex items-center justify-center">
 		<RegisterForm />
 	</div>
 </template>
