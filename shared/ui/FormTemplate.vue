@@ -11,7 +11,15 @@ const emit = defineEmits<{
 	(e: 'submit', event: FormSubmitEvent<any>): void
 }>()
 
+const toast = useToast()
+
 async function handleSubmit(event: FormSubmitEvent<typeof props.state>) {
+	toast.show({
+		title: 'asdfasf',
+		message: 'asdasddddd',
+		color: '#ac88f6',
+	})
+
 	console.log(event.data)
 	emit('submit', event)
 }

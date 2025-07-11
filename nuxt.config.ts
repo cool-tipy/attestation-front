@@ -11,18 +11,11 @@ export default defineNuxtConfig({
 		'@nuxt/ui',
 		'@nuxt/eslint',
 		'@nuxt/icon',
+		'nuxt-toast',
 	],
 	css: ['~/assets/css/main.css'],
 	icon: {
 		mode: 'css',
 		cssLayer: 'base',
 	},
-	// ui: {
-	// 	colorMode: true,
-	// },
-	// colorMode: {
-	// 	preference: 'system',
-	// 	fallback: 'dark',
-	// 	classSuffix: '',
-	// },
 })
