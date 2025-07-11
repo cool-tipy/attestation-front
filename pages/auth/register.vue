@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import LoginForm from '~/widgets/auth/LoginForm.vue'
+import RegisterForm from '~/widgets/auth/RegisterForm.vue'
 </script>
 
 <template>
 	<div class="h-dvh flex items-center justify-center">
-		<LoginForm />
+		<RegisterForm />
 	</div>
 </template>
+
+<style scoped lang="scss"></style>
